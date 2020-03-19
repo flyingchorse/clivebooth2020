@@ -163,7 +163,7 @@ button:focus {outline:0;}
 .navyr{font-size: 27px;letter-spacing: -0.08em; padding-right: 9px; font-family:'HelveticaNeueW01-65Medi';}
 .nav-point{font-size: 27px;letter-spacing: -6.18em;font-family:'HelveticaNeueW01-45Ligh';} 
 .navpostheader { 
-	margin-bottom: 7px;
+	margin-bottom: 12px;
 	display: none;
 	flex: auto;
 color: white;}
@@ -500,6 +500,9 @@ width: 100%;
 
 		.navbar-brand {
 		font-size: 2.0rem;
+		}
+		.navpostheader { 
+			margin-bottom: 7px;
 		}
 		.card-title {
 		font-size:190px;
