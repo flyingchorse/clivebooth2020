@@ -1,0 +1,653 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+body {
+	background-color: #4c4c4c;
+	}
+
+
+#single-wrapper {
+	margin-bottom: 3.0rem;
+}
+
+.site {
+	background-color: white;
+
+}
+
+.home .navbar {
+	//background-color:#292b2c;
+}
+
+.navbar {
+	//background-color:#e0e0e0;
+	//display: block;
+	z-index: 1033;
+	padding: 0.5rem 0px 0px 0px;
+}
+
+.sticky-top {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.navbar-collapse {
+	justify-content:flex-end;
+	
+
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1.0)' stroke-width='1' stroke-linecap='square' stroke-miterlimit='10' d='M4 6h24 M4 11h24 M4 16h24'/%3E%3C/svg%3E"); }
+
+
+.navbar-inverse .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='1' stroke-linecap='square' stroke-miterlimit='10' d='M4 6h24 M4 11h24 M4 16h24'/%3E%3C/svg%3E"); }
+  
+
+
+.show .navbar-nav {
+	
+
+}
+
+.bg-inverse {
+	background-color: transparent;
+}
+.navbar-header {
+	text-transform: lowercase;	
+}
+
+ul#main-menu.nav.navbar-nav {
+	padding-left: 0px;
+	text-transform: uppercase;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 0.8rem;
+	margin-top: 28px;
+}
+
+.navbar-toggler {
+	//float: right;
+	margin-top: 0.54rem;
+	border: none;
+	font-size: 2.0rem;
+}
+button:focus {outline:0;}
+
+
+.navbar-brand {
+	font-family:'HelveticaNeueW01-65Medi';
+	font-size: 1.7rem;
+	letter-spacing: -0.02em;
+	padding-top: .40rem;
+	margin-left: 0;
+	
+}
+
+.home .navbar-brand {
+	
+	color: white;
+	
+	
+}
+
+.navbar-brand {
+	
+	//color: black;
+	padding-bottom: 1.25rem;
+}
+
+.navbar-toggler {
+	padding-right: 0;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.home .navbar-nav a {
+	
+//	color: white;
+}
+
+.navbar-nav a {
+	
+	//color: black;
+}
+
+.sticky-top {
+	  position: absolute;
+	  background-color: black;	  
+	  }
+
+
+
+
+#single-wrapper, #page-wrapper {
+//	margin-top: 60px;
+}
+
+.monthind {padding-left: 18px;float: right;margin-top:20%;color: black;margin-bottom: 32px;}
+.month{font-size: 116px;float: left;letter-spacing: -0.030em;margin-top: -10px;}
+.yearicon {font-size: 116px;float: left;letter-spacing: -0.100em;padding-left: 2px;margin-top:-6px;padding-right: 0.5rem}
+.home .monthind {
+	color: white;
+}
+
+.keyline {display: inline-block; width:9px;height:37px;border-left: 1px solid black ;opacity:0.5;}
+.home .keyline {border-left: 1px solid white ;opacity:0.5;}
+
+.counterkeyline {margin-left:13px;width:0px;height:200px;bottom:25px; position: relative;float: left;border-left: 1px solid white;opacity:0.5;}
+.single .counterkeyline {margin-left:13px;width:0px;height:200px;bottom:25px; position: relative;float: left;border-left: 1px solid black ; opacity:0.5;}
+ .monthmotif {
+	 position: absolute;
+ }
+ 
+ .article-no {position: relative;padding-right: 9px;}
+
+ .home {
+	 .menu-pane {
+		 background-color: #292b2c!important;
+	 }
+	 .article-no , .navmnth, .navyr, .nav-point, .subarticle  {
+		 color: white;
+	 }
+ }
+ .navmnth, {font-size: 27px;letter-spacing: -0.18em;padding-left: 2px;font-family:'HelveticaNeueW02-UltLt';}
+.navyr{font-size: 27px;letter-spacing: -0.08em; padding-right: 9px; font-family:'HelveticaNeueW01-65Medi';}
+.nav-point{font-size: 27px;letter-spacing: -6.18em;font-family:'HelveticaNeueW01-45Ligh';} 
+.navpostheader { 
+	margin-bottom: 7px;
+	display: none;
+	flex: auto;
+color: white;}
+.subarticle, .sub-article-wrap, .navpostheader {
+letter-spacing: -0.02em;
+line-height: 1em;
+font-size: 25px;
+font-family:'Helvetica Neue LT W01_35 Thin';
+}
+
+.sub-article {padding-left: 4px;width: 280px;}
+ 
+#month-wrap {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+#hero-slides {
+	padding: 0;
+}
+
+#wrapper-hero {
+//	margin-top: 74px;
+}
+.subarticle, .keyline , .navmnth, .nav-point, .navyr {
+	display: none;
+}
+
+.sub-article-wrap {
+	display: flex;
+	margin-left: 266px;
+	margin-top: -4px;
+	font-size: 15px;
+	color: white;
+	
+}
+.card-img-overlay .sub-article-wrap {
+	margin-left: 0;
+	
+}
+.card-img-overlay {
+	padding: 0;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home #wrapper-index {
+	padding:  0;
+}
+
+.article-card, .article-card img, .card , .card-img {
+	padding: 0;
+	border: none;
+	border-radius: 0;
+}
+
+.article-meta {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.post-navigation {
+	padding-top: 30px;
+}
+
+.comments-area {
+	padding-top: 30px;
+}
+
+.pagination {
+	padding-top: 15px;
+}
+
+
+.archive {
+	article {
+		padding-bottom: 2.0rem;
+	}
+}
+
+/* CSS used here will be applied after bootstrap.css */
+
+ /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+h1.entry-title  {
+	//padding-bottom: 4.5rem;
+// Removed top padding of page title	
+//	text-align: right;
+	}
+	.subheading {
+		padding-bottom: 2.5rem;
+		padding-top: 0.5rem;
+		white-space: pre-wrap;
+	}
+
+.single .entry-title  {
+	text-align: left;
+	}
+
+.entry-content, .lead {
+	//font-family:'Open Serif W10 Book';
+}
+
+
+.dropdown-menu {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+}
+
+
+    /* Fixes jumping carousel in Chrome
+    ------------------------- */
+
+.img-circle {
+    border-radius: 50%;
+    display: block;
+}
+.card {
+	background-color: black;
+}
+.card-title {
+	font-size:60px;
+	color: rgba(255, 255, 255, 0.5)!important;
+	float: right;
+	margin-bottom: 10%;
+/*
+	position: absolute;
+	right: 0;
+*/
+}
+.card-title, .post-incr , .card-title .zero, .card-title .point  {
+	
+	font-family:'Helvetica Neue LT W01_35 Thin';
+}
+.card-title .post-incr {
+	font-family:'HelveticaNeueW01-65Medi';
+}
+
+.card-title .zero {
+	letter-spacing: -0.09em;
+}
+
+.card-title .point {
+	letter-spacing: -0.07em;
+}
+.card-title {
+	font-size:60px;
+
+}
+.card-title.widget-post-number {
+	font-size: 121px;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.2)!important;
+	position: relative;
+	padding-top: 38px;
+}
+
+aside {
+	padding-bottom: 4.0rem;
+	font-family:'HelveticaNeueW02-45Ligh';
+	text-align: right;
+	
+}
+
+aside li {
+	list-style: none;
+}
+
+.widget-area {
+			padding-top: 30px;
+		}
+
+#searchform label {
+	display: none;
+}
+
+#wrapper-footer {
+	
+	background-color: #4c4c4c;
+	font-family:'HelveticaNeueW02-UltLt';
+	font-size: smaller;
+}
+
+#wrapper-footer h2 {
+	font-family: 'FreightSans Light', sans-serif;
+}
+
+
+.border-thin {
+	
+	border-right: 1px solid #909090;
+}
+
+.site-footer .col-lg-4 {
+	color: white;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    z-index: 1033;
+    background-color: rgba(68, 68, 68, 0.76);
+}
+
+#wrapper-footer-full {
+	background-color: #4c4c4c;
+	color: white;
+}
+
+.footer-bottom {
+	border-top: rgba(255, 255, 255, 0.1) solid 1px;
+	padding-top: 50px;
+}
+
+.mce-content-body {
+	
+background-color: white;
+}
+.simple-social-icons ul li {
+	margin-left: 1px!important;
+	
+}
+
+.social-bar {
+display: none;
+margin-top: 30px;
+width: 100%;
+}
+
+
+.featured-video-plus.fvp-center {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	
+	height: 0;
+}
+.featured-video-plus.fvp-center iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.gallery-icon {
+	padding-top: 22px;	 
+	 }
+
+
+@media screen and (min-width: 783px) {
+  .admin-bar .sticky-top {
+    top: 32px;
+  }
+  .sticky-top {
+	  position: absolute;
+	  background-color: transparent;	  }
+
+/*
+	  .navbar .subarticle, .keyline, .navmnth, .nav-point, .navyr  {
+	display: inline-block;
+}
+*/
+		.navbar {
+		padding-top: 45px;
+		display: flex;
+		
+		}
+		.home .navbar {
+// 			background-color:rgba(0, 0, 0, 0.43);
+		}
+		
+		#wrapper-hero {
+		margin-top: 0px;
+		}
+
+		#hero-slides {
+		display: inherit;
+		}
+
+		.navbar-brand {
+		font-size: 2.0rem;
+		}
+		.card-title {
+		font-size:190px;
+		margin-bottom: 10%;
+		
+				}
+		.archive .card-title {
+		font-size:40px;
+		margin-left: 65%;
+		margin-top: 26%;
+		}
+		
+		.widget-area {
+			padding-top: 0;
+		}
+
+	}
+	
+#infinite-footer {
+	display: none;	
+}
+
+@include media-breakpoint-only(sm) { 
+	
+		.card-title {
+		font-size:120px;
+		}
+	
+	}
+	
+.understrap-read-more-link {
+	margin-bottom: 30px;
+}
+.grid {
+	
+	}
+/* fluid 4 columns 
+.grid-item { width: 12%; }
+ fluid 4% gutter */
+
+
+.grid-item {
+  float: left;
+  width: 68px;
+  height: 44px;
+  
+  
+}
+.grid-item img {
+	width: 68px;
+  height: 44px;
+  }
+
+.grid-item--width2 img {
+	width: 68px;
+	height: 89px;
+	
+}
+
+ .grid-item--width2 { height: 89px; }
+
+/* Media Queries for thumbnails */
+
+@media screen and (min-width: 768px) {
+
+.grid-item {
+  float: left;
+  width: 89px;
+  height: 60px;
+  
+  
+}
+.grid-item img {
+	width: 89px;
+  height: 60px;
+  }
+
+.grid-item--width2 img {
+	width: 89px;
+	height: 121px;
+	
+}
+
+ .grid-item--width2 { height: 121px; }
+}
+/* Media Queries for thumbnails */
+
+@media screen and (min-width: 992px) {
+	
+		.card-title.widget-post-number {
+		font-size: 152px;
+		padding-top: 102px;
+		}
+
+.grid-item {
+  float: left;
+  width: 75px;
+  height: 50px;
+  
+  
+}
+.grid-item img {
+	width: 75px;
+  height: 50px;
+  }
+
+.grid-item--width2 img {
+	width: 75px;
+	height: 101px;
+	
+}
+
+ .grid-item--width2 { height: 101px; }
+}
+/* Media Queries for thumbnails */
+
+@media screen and (min-width: 1200px) {
+	
+	.card-title.widget-post-number {
+		font-size: 196px;
+		padding-top: 124px;
+		}
+
+.grid-item {
+  float: left;
+  width: 90px;
+  height: 60px;
+  
+  
+}
+.grid-item img {
+	width: 90px;
+  height: 60px;
+  }
+
+.grid-item--width2 img {
+	width: 90px;
+	height: 121px;
+	
+}
+
+ .grid-item--width2 { height: 121px; }
+}
+
+.galleria-thumbnails img {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
+
