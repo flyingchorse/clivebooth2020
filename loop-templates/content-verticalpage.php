@@ -7,7 +7,7 @@
  */
 
 ?>
-<?php global $post ?>
+<?php global $post; ?>
 
 <article <?php post_class(); ?> id="<?php echo esc_html( strtolower( $post->post_title ) ); ?>">
 

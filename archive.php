@@ -15,7 +15,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 ?>
 
-<div class="wrapper" id="archive-wrapper">
+<div class="wrapper" id="archive-wrapper wibble">
 
 	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
 
@@ -56,12 +56,12 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 			<!-- The pagination component -->
 			<?php understrap_pagination(); ?>
 
-		</div><!-- #primary -->
+		<!-- #primary -->
 
 		<!-- Do the right sidebar check -->
 		<?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
 
-			<?php get_sidebar( 'right' ); ?>
+			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
 
 		<?php endif; ?>
 

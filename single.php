@@ -38,12 +38,12 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 			</main><!-- #main -->
 
-		</div><!-- #primary -->
+		<!-- #primary -->
 
 		<!-- Do the right sidebar check -->
 		<?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
 
-			<?php get_sidebar( 'right' ); ?>
+			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
 
 		<?php endif; ?>
 

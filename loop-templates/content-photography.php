@@ -9,7 +9,7 @@ $col = 4;
 ?>
 
 
-	<div class="col-md-2 col-xl-2 article-card">
+	<div class="col-md-2 col-xl-2 article-card wibbler">
 
 
 		<div class="card card-inverse ">
